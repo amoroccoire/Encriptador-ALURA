@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE - ENCRIPTADOR</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="images/Logo.png">
+    </div>
+    <div class="contenidoPrincipal">
+        <form class="formulario">
+            <textarea id="textoInicial" class="entrada" autofocus rows="18" cols="30" minlength="2" placeholder="Ingrese el texto aqui"></textarea>
+            <p>Solo letras minúsculas y sin acentos</p>
+            <div class="botonPosition">
+                <button type="button" id="botonEncriptar" class="boton color-wt border-wt" onclick="encrypt()" disabled>Encriptar</button>
+                <button type="button" id="botonDesencriptar" class="boton color-bl border-bl" onclick="decrypt()" disabled>Desencriptar</button>
+            </div>
+        </form>
+    </div>
+    <div class="resultado">
+        <div id="message" class="sinTexto">
+            <img class="guest" src="images/avatar.png">
+            <p>Ningún mensaje fue encontrado</p>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <textarea id="textoEncriptado" disabled rows="29" cols="30" minlength="2" placeholder="Ingrese el texto aqui"></textarea><br>
+        <button id="buttonToCopy" type="button" class="boton bg-white color-bl border-bl" onclick="copyText()">Copiar</button>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+

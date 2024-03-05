@@ -1,0 +1,185 @@
+
+html {
+    background: #E5E5E5;
+}
+
+body {
+    font-family: sans-serif;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 90%;
+    /*background-color: blueviolet;*/
+    margin: 40px auto;
+}
+
+.contenidoPrincipal {
+    /*background-color: crimson;*/
+    width: 90%;
+    margin: 0px auto;
+    height: auto;
+}
+
+.formulario {
+    /*background-color: yellow;*/
+    width: 48%;
+    height: auto;
+    padding-left: 13%;
+}
+
+.formulario textarea {
+    padding: 10px 10px;
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario p {
+    padding: 0 14%;
+    font-size: 11px;
+    margin: 10px 0px;
+}
+
+.botonPosition {
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    /*background-color: black;*/
+}
+
+.entrada {
+    margin: auto;
+    background: #E5E5E5;
+    border: none;
+    resize: none;
+    min-height: 3px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: blue;
+    width: 30%;
+    height: 30%;
+}
+
+.entrada:focus {
+    outline: none;
+    border: none;
+}
+
+.entrada::placeholder {
+    color: #122562;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.boton {
+    border-radius: 20px;
+    width: 270px;
+    height: 60px;
+    border: none;
+    font-size: 14px;
+    border: 1px solid;
+}
+
+.bg-blue {
+    background-color: #122562;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.color-bl {
+    color: #122562;
+}
+
+.color-wt {
+    color: white;
+}
+
+.border-bl {
+    border-color: #122562;
+}
+
+.border-wt {
+    border-color: white;
+}
+
+.resultado {
+    background-color: white;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 7%;
+    left: 60%;
+    border-radius: 20px;
+    padding: 20px;
+    width: 21.5%;
+    height: 85%;
+}
+
+.sinTexto {
+    padding: 26.5% 5%;
+}
+
+.sinTexto img {
+    padding: 0px 5%;
+}
+
+.sinTexto p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 5% auto;
+    padding: 0px 10%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.sinTexto p:nth-of-type(2) {
+    font-size: 18px;
+    text-align: center;
+    margin: 7% auto;
+}
+
+.resultado textarea {
+    display: none;
+    background: white;
+    border: none;
+    resize: none;
+    min-height: 3px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+    width: 95%;
+}
+
+.resultado textarea::placeholder {
+    color: #122562;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.resultado textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.resultado button {
+    margin-top: 5%;
+    margin-bottom: 0px;
+    margin-left: 16%;
+    margin-right: auto; 
+    display: none;
+}
+
+.resultado button:disabled {
+    background-color: #9b9b9b;
+}
+
+.resultado button:enabled {
+    background-color: white;
+}
+
